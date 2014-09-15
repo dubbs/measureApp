@@ -163,7 +163,7 @@ var UnitForm = React.createClass({
     // render form
     return (
       <div className="unitForm">
-        as<br />
+        <span className="spacer">as</span><br />
         <label for="units">Units: </label>
         <select
           id="units"
