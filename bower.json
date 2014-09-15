@@ -1,0 +1,20 @@
+{
+  "name": "measureApp",
+  "main": "measureApp.js",
+  "version": "0.0.0",
+  "authors": [
+    "Kevin Warrington <kevin.warrington@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "measure": "~0.1.5"
+  }
+}

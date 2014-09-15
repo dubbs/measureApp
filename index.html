@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>measure</title>
+    <link rel="stylesheet" href="normalize.min.css" />
+    <script src="bower_components/measure/dist/measure.min.js"></script>
+    <script src="react-0.11.1.js"></script>
+    <script src="JSXTransformer-0.11.1.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['PT Sans']
+        }
+        });
+    </script>
+    <style>
+      body, input::-webkit-input-placeholder {font-family: 'PT Sans', sans-serif;}
+      body, input, select { font-size: 50px;}
+      input[type="text"],select {width: 8em;text-align:center;}
+      .amountForm > label,
+      .unitForm > label { display: inline-block;width: 20%; text-align: right; padding-right: 10px;}
+      select, input[type="text"] { width: 45%; }
+      select::-webkit-input-placeholder {text-align:center;}
+      .sidebar {width: 19%; display: inline-block;}
+      .measureApp {
+        text-align:center;
+        width: 70%;
+        margin: 2em auto;
+      }
+      .amountForm, .unitForm { white-space:nowrap;}
+      .amountForm i { margin: 0 10px; }
+      .amountAsML {
+        position: relative;
+        width: 50px;
+        height: .9em;
+        display: inline-block;
+      }
+      select { -webkit-appearance: textfield; padding-left: 50px; }
+      .result {font-size: 70px }
+
+    </style>
+  </head>
+  <body>
+    <div id="content"></div>
+    <script src="measureApp.js" type="text/jsx"></script>
+  </body>
+</html>
